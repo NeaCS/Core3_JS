@@ -10,6 +10,10 @@ body {
   text-align: center;
 }
 
+nav h1 {
+  margin: 5px;
+}
+
 .contenedor {
   width: 80%;
   margin: 20px auto;
