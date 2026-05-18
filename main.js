@@ -19,7 +19,7 @@ botonMeGustaMateo?.addEventListener("click", function () {
 })
  */
 
-const botonesMeGusta = document?.querySelectorAll(".boton-like")
+const botonesMeGusta = document.querySelectorAll(".boton-like")
 
 for (let item in botonesMeGusta) {
   botonesMeGusta[item].addEventListener("click", function () {
