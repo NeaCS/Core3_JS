@@ -24,6 +24,6 @@ const botonesMeGusta = document?.querySelectorAll(".boton-like")
 for (let item in botonesMeGusta) {
   botonesMeGusta[item].addEventListener("click", function () {
     const cantidadLikes = document?.querySelectorAll(".cantidad-likes")[item]
-    cantidadLikes.innerHTML = parseInt(cantidadLikes.innerHTML) + 1
+    cantidadLikes.innerHTML = +cantidadLikes.innerHTML + 1
   })
 }
